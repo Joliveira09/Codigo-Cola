@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+:root {
+    --cor-fundo: #e8c167;
+    --cor-header: #B8984C;
+    --cor-header2: #cb9d42;
+    --cor-link2: #c79b44;
+    --cor-reserva-escura: #755711;
+    --cor-reserva-clara: #BE9C4E;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-image: linear-gradient(to right, var(--cor-header2), var(--cor-header), var(--cor-fundo));
+    height: 100vh;
+    width: 100vw;
+}   
+fieldset {
+    border: none;
+}
+
+.box {
+    background-color: var(--cor-reserva-escura);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+    width: 30%;
+}
+
+
+h1 {
+    font-size: bold;
+    color: white;
+}
+
+.inputBox {
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: bold;
+}
+
+.inputUser {
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    outline: none;
+    font-size: 15px;
+    width: 300px;
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+label {
+    color: white;
+}
+
+i {
+    margin-right: 7px;
+    color: white;
+}
+
+.botao {
+    background-color: var(--cor-header2);
+    font-weight: bold;
+    color: white;
+    border: none;
+    outline: none;
+    width: 315px;
+    height: 35px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.botao:hover {
+    background-color: var(--cor-fundo);
+}
